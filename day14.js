@@ -1,9 +1,16 @@
 function getLength(arr) {
+  if (!arr) {
+    return null;
+  }
   let totalItems = arr.flat(Infinity).length;
   return totalItems;
 }
 
 //tests
+arr0 = []
+const totalItems0 = getLength(arr0)
+console.log(totalItems0)
+
 const arr1 = [1, [2, 3]];
 const totalItems1 = getLength(arr1); // 3
 console.log(totalItems1);
