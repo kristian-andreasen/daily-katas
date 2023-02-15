@@ -1,0 +1,13 @@
+KATA: PascalCase converter
+The goal of this kata is to make use of String manipulation techniques in Java. You are given a sentence and have to convert it to PascalCase, i.e. “pineapple on pizza” -> “PineappleOnPizza”. Each word needs to be capitalized and the spaces removed.
+You do not need to ask for user input, rather simply take a provided sentence and do the conversion. The sentence given is “The quick brown fox jumped over the lazy dog”. Convert this.
+Some things to think about:
+How will you handle irregular capitalization? i.e. jUmpED
+How will you handle multiple whitespaces, i.e the quick     brown
+How will you handle punctuation, i.e. the quick, brown! fox.
+Catering for punctuation is something to do extra, but it’s not required for the kata.
+A tip for the extra parts to think about is using Regular expressions with .replaceAll(regex, replaceWith);
+Replace All
+Regex
+For these extra things to think about you can use the following sentence:
+“The qUick!  bRoWn fox    jumped, OVER the    lazy. dog”
