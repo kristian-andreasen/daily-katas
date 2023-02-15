@@ -1,0 +1,6 @@
+Write a piece of code in Java to do the following:
+define a 2-dimensional array (matrix) of size 3*4 and initialize it with some arbitrary values.
+define a 2-dimensional array (matrix) of size 4*5 and initialize it with some arbitrary values.
+write a piece of code that calculates the matrix multiplication of above ones.
+print the result in console output.
+If due to any reason, you don't have Java up and running, do this in JavaScript. (edited) 
