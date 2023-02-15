@@ -1,0 +1,34 @@
+Calculator:
+Write a Calculator class with a method, called basicCalculator, that takes two numbers a and b and an operator o. The function should return the result of the corresponding mathematical function on both numbers. If the operator is not one of the specified characters +, -, /, *, or if there is a division by zero, the function should return null.
+Look at the examples below to get an idea of what the function should do:
+Examples
+basicCalculator(2, '+',  4) ➞ 6
+
+basicCalculator(6, '-', 5) ➞ 1
+
+basicCalculator(12, '/', 3) ➞ 4
+
+basicCalculator(3, '*', 4) ➞ 12
+
+basicCalculator(1, '/', 0) ➞ null
+// Division by zero is not possible
+
+basicCalculator(1, 'x', 0) ➞ null
+// 'x' is not an operator
+Optional extension:
+Add another method, called extendedCalculator, to the class. This method gets a string as input and parses it to figure out the operands and the operator. Look at the examples below:
+extendedCalculator("2+ 4") ➞ 6
+
+extendedCalculator("6 - 5") ➞ 1
+
+extendedCalculator("12/3") ➞ 4
+
+extendedCalculator("3*4 ") ➞ 12
+
+extendedCalculator(" 1/ 0") ➞ null
+// Division by zero is not possible
+
+extendedCalculator("1 x 0") ➞ null
+// 'x' is not an operator
+Note:
+Having some extra space characters in the input is not important on the result.
