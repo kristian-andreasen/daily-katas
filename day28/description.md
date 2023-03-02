@@ -4,6 +4,7 @@ A word is alphabetically sorted if all of the letters in it are in consecutive a
 Create a function that takes in a sentence as input and returns true if there is at least one alphabetically sorted word inside that has a minimum length of 3.
 
 Examples
+
 isAlphabeticallySorted("Paula has a French accent.") ➞ true
 // "accent" is alphabetically sorted.
 
